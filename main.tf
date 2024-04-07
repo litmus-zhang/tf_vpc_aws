@@ -1,5 +1,5 @@
 resource "aws_vpc" "tfb" {
-  ipv6_cidr_block = var.cidr
+  cidr_block = var.cidr
   enable_dns_hostnames = var.enable_dns_hostnames
   enable_dns_support = var.enable_dns_support
   tags = {
